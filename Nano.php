@@ -43,7 +43,7 @@ class Nano
     public static $debug = true;
 
     /**
-     * version of this code
+     * version of this code ( Nano )
      */
     protected static $version = '1.0';
 
