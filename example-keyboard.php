@@ -15,7 +15,7 @@ $bot->chat('/ok', function(){
         'parse_mode' => 'html',
         'reply_markup' => $key
     ];
-    return Nano::sendMessage($text, $options)
+    return Nano::sendMessage($text, $options);
 });
 
 // send messages
