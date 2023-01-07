@@ -17,7 +17,7 @@ $options = [
 
 $bot->start('please select', $options);
 
-$bot-callback_query(function(){
+$bot->callback_query(function(){
     $message = Nano::message();
     $data = $message['data'];
 
