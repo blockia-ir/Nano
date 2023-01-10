@@ -4,6 +4,10 @@ NanoBot - The modern telegram bot library
 To start, add the library file (Nano.php) to your project.
 
 Create a custom file and proceed according to examples in GitHub such as (example-sendMessage.php).
+
+<br>
+<code>Nano::message()</code>
+Use this method for get message data
 <hr>
 
 ### Telegram Methods
