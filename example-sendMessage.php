@@ -5,7 +5,7 @@ require 'Nano.php';
 $bot = new Nano('token', 'username');
 
 // send 1
-$bot-chat('/start', 'Hello Nano');
+$bot->chat('/start', 'Hello Nano');
 
 // send 2
 $bot->chat('/test|test', function() {
